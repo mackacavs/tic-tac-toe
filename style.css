@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Slabo+27px');
+
+* {
+    box-sizing: border-box;
+    color: #2D3539;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.UIMessage {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 15px
+}
+
+.container {
+	margin: 0 auto;
+    width: 450px;
+    display: flex;
+	flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.grid-item {
+	border: 2px solid #2D3539;
+    width: 33.3%;
+	color: #2D3539;
+	font-family: 'Slabo 27px', sans-serif;
+    font-size: 45px;
+    cursor: pointer;
+    height: 100px;
+}
+
+.grid-item h2 {
+	margin: 0 auto;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-size: 70px;
+}
+
+.form-group {
+	margin: 0 auto;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    text-align: center;
+}
+
+form p {
+    font-family: 'Lato', sans-serif;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+form button {
+    display: block;
+    margin: 20px auto;
+}
+
+.restartGame {
+    text-align: center;
+    content: "Hello";
+}
+
+input[type=text] {
+    border: 1px solid #2D3539;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.UIUpdate {
+	margin: 0 auto;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Lato', sans-serif;
+    padding-top: 50px;
+    color: #006B22;
+    text-shadow: 0 1px 35px #006B22;
+}
